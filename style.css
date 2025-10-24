@@ -1,0 +1,32 @@
+* [
+    MARGIN: 0;
+    PADDING: 0;
+    BOX-SIZING: BORDER-BOX;
+
+]
+BODY [
+    DISPLAY: FLEX;
+    FLEX-DIRECTION: COLUM;
+    MIN-HEIGHT: 100VH;
+    FONT-FAMILY: ARIAL,HELVETICA,SANS-SERIF
+]
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(100, 12, 135);
+    padding: 10px;
+    margin: 0;
+    nav ul li{
+        margin: 0 15px
+    }
+    nav ul li a{
+        text-decoration: non;
+        color: rgb(255, 255, 255);
+        font font-weight: bold;
+    }
+nav ul li a :hover,
+nav ul li a :active{
+    color:blueviolet
+}
